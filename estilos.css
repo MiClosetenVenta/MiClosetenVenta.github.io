@@ -1,0 +1,306 @@
+body{
+    background:#BCA4EF ;
+}
+
+h1{
+    font-size: 20px;
+	font-style: Lobster;
+	text-align: center;
+	color: #000000;
+
+}
+
+p{
+    font-size: 15px;
+	font-style: Lobster;
+	text-align: center;
+	color: #FFFFFF;
+
+}
+
+table{
+    border-style: solid;
+    border-color: black;
+	border: 2;
+	width: 70%;
+	height:40%;
+}   
+
+td{
+	background-color: #FF6EC3;
+	text-align: center;
+}
+
+th{
+	background-color:#6E79FF;
+}
+
+/*codigo tabla transparente*/
+.sin{
+    border-style: transparent;
+    border: 0;
+    background-color: transparent;
+}
+
+li{
+    font-size: 25px;
+	font-style: Lobster;
+	text-align: center;
+	color: #000000;
+}
+
+/*codigo contacto*/
+.otro{
+    border-style: solid;
+    border-color: black;
+	border: 2;
+	width: 30%;
+	height: 50%;
+}
+
+/*codigo imagen pantalon*/
+.imgp{
+    width: 180px;
+	height: 258px;
+}	
+ 
+ /*codigo imagenes moviles principal*/
+.imgrop2{ 
+    width: 200px;
+	height: 200px;
+}
+
+/*codigo logo*/
+.log{	
+    width: 300px;
+	height: 140px;
+}
+
+/*codigo viñetas*/
+.viñ{
+	list-style-type: disc;
+	list-style-position: inside;
+}
+
+ /*codigo nosotros texto*/
+ .texto{
+    font-size: 15px;
+	font-style: Lora;
+	text-align: center;
+	color: #000000;
+}
+
+/*codigo principal*/
+.div1{
+   margin-top: 10px;
+   margin-right: 1%;
+   margin-bottom: 10px;
+   margin-left: 0%;
+   background: #3F0068;
+   text-align: center;
+   left: 10px;
+   top: 10px;
+   width: 100%;
+   height: 23%;
+   color: #21AB1C;
+   background-color: #A58BDC;
+   font-size: large;
+   font-weight: bold;
+   text-align: center;
+   font-family: "Helvetica" ,gadget, sans-serif;
+   font-style: normal;
+}
+
+/*codigo producto*/
+.div2{
+   background: #8E7E98 ;
+   margin-top: 15px;
+   margin-bottom: 10px;
+   text-align:  center;
+   width: 100%;
+   height: 38%;
+   color: #21ABC1C;
+   font-size: large;
+   font-weight: bold;
+   text-align:center;
+   padding-top:20px;
+   font-family: "Helvetica", gadget, sans-serif;
+   font-style: normal;
+}
+
+/*codigo botones*/
+.div3{
+   margin-top: 15px;
+   margin-right: 1px;
+   margin-bottom: 0%;
+   margin-left: 1px;
+   background:#AB9DCA ;
+   text-align: center;
+   width: 81%;
+   height: 20%;
+   color: #21ABC1C;
+   font-size: large;
+   font-weight: bold;
+   text-align: center;
+   padding-top: 20px;
+   padding-left: 17%;
+   font-family: "Helvetica", gadget, sans-serif;
+   font-style: normal;
+   }
+   
+/*codigo contacto*/
+.div4{
+   margin-top: 30px;
+   margin-right: 5px;
+   margin-bottom: 10px;
+   margin-left: 2%;
+   background: #3F0068;
+   text-align: center;
+   width: 25%;
+   height: 37%;
+   color: #21ABC1C;
+   font-size: large;
+   font-weight: bold;
+   text-align: center;
+   padding-top: 25px;
+   padding-left: 70px;
+   font-family: "Helvetica", gadget, sans-serif;
+   font-style: normal;
+   }
+
+/*codigo datos*/
+.div5{
+   margin-right: 1px;
+   margin-bottom: 0%;
+   margin-left: 1px;
+   background: #3F0068;
+   text-align: center;
+   width: 100%;
+   height: 12%;
+   color: #21ABC1C;
+   background-color: #362261 ;
+   font-size: large;
+   font-weight: bold;
+   text-align: center;
+   padding-top: 2px;
+   font-family: "Helvetica", gadget, sans-serif;
+   font-style: normal;
+}
+
+/*imagen de fondo*/
+.div6{
+    background: url("morado.jpg");
+    border-radius: 20px;
+	margin: auto;
+	width: 100%;
+    height: 33%;
+}
+
+/*imagen de fondo nosotros*/
+.div7{
+    background: url("nosotrosfondo.jpg");
+    border-radius: 1px;
+	margin: auto;
+	width: 100%;
+    height: 20%;
+	padding-top: 2px;
+}
+
+.caja{
+    height:323px;
+	width:250px;
+	border: 1px solid #E5D0FF;
+	background:#E6C5FF;
+	margin: 5px;
+	color: black;
+	text-align: center;
+	font-family: "Helvetica", sans-serif;
+	display: inline-block;
+}
+	
+.caja:hover{
+             /*colocar sombra al div*/
+             /* x y radio color*/
+    box-shadow: 0 0 10px #9200FF;
+	/*cambia el temaño de escala del div*/
+	transform: scale(1.3);
+}	
+
+.caja-texto{
+    padding-bottom: 5px;
+	padding-top: 2px;
+	font-size: 25px;
+	color: #350047;
+	font-weight: bold;
+}
+
+.texto-adicional{
+    padding-top: 5px;	
+	font-size:20px;
+}	
+
+/*codigo Blusan*/
+.imgn{
+    width: 230px;
+	height: 295px;
+}
+@font-face{
+    font-family: "mifuente";
+	src: url(Franchise.ttf);
+}
+
+#fuente-franchise{
+    font-family: "mifuente";
+}
+
+#fuente-google{
+    font-family: 'Cuprum', sans-serif;
+}
+
+/*navegacion*/
+.navegacion{
+    display:flex;
+	height:100px;
+}	
+
+.navegacion-item{
+    flex:1;
+	color: #350047;
+	font-weight: bold;
+	font-size: 15px;
+	display: flex;
+	transition: flex-grow 0.2s;
+	justify-content:center;
+	align-items:center;
+}
+
+.navegacion-item:hover{
+    flex-grow:10;
+	transform: scale(1.1);
+}
+
+.navegacion-item:hover .navegacion-titulo{
+    transform: rotate (0);
+}
+
+.navegacion-item:nth-child(1){
+    background: #AB9DCA;
+}
+
+.navegacion-item:nth-child(2){
+    background: #BDAEDE;
+}
+
+.navegacion-item:nth-child(3){
+    background: #CEBFF1;
+}
+
+.navegacion-item:nth-child(4){
+    background: #E4D8FF;
+}
+
+.navegacion-titulo{
+    margin:0;
+	transform:rotate(-90deg);
+	transition: transform 0.2s 0.2s;
+}	
